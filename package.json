@@ -1,22 +1,22 @@
 {
-  "name": "generator-cg-angular",
+  "name": "generator-wp-angular",
   "version": "3.2.0",
   "description": "Yeoman Generator for Enterprise Angular projects.",
   "keywords": [
     "yeoman-generator",
     "angular"
   ],
-  "homepage": "https://github.com/cgross/generator-cg-angular",
-  "bugs": "https://github.com/cgross/generator-cg-angular/issues",
+  "homepage": "https://github.com/IndiciumSRL/generator-wp-angular",
+  "bugs": "https://github.com/IndiciumSRL/generator-wp-angular/issues",
   "author": {
-    "name": "Chris Gross",
-    "email": "schtoo@schtoo.com",
-    "url": "https://github.com/cgross"
+    "name": "Indicium SRL",
+    "email": "info@indicium.com.ar",
+    "url": "https://github.com/IndiciumSRL"
   },
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cgross/generator-cg-angular.git"
+    "url": "git://github.com/IndiciumSRL/generator-wp-angular.git"
   },
   "scripts": {
     "test": "mocha"

@@ -1,14 +1,20 @@
-angular.module('<%= _.camelize(name) %>', ['ui.bootstrap','ui.utils','<%= routerModuleName %>','ngAnimate']);
-<% if (!uirouter) { %>
-angular.module('<%= _.camelize(name) %>').config(function($routeProvider) {
+(function() {
 
-    /* Add New Routes Above */
+    'use strict';
 
-});
-<% } %><% if (uirouter) { %>
-angular.module('<%= _.camelize(name) %>').config(function($stateProvider) {
+    angular.module('<%= _.camelize(name) %>', ['ui.bootstrap','ui.utils','<%= routerModuleName %>','ngAnimate']);
+    <% if (!uirouter) { %>
+    angular.module('<%= _.camelize(name) %>').config(function($routeProvider) {
 
-    /* Add New States Above */
+        /* Add New Routes Above */
 
-});
-<% } %>
+    });
+    <% } %><% if (uirouter) { %>
+    angular.module('<%= _.camelize(name) %>').config(function($stateProvider) {
+
+        /* Add New States Above */
+
+    });
+    <% } %>
+
+})();
